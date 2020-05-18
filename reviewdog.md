@@ -1,6 +1,13 @@
 # Github Actionsでreviewdogを利用してCSSの構文チェックをしてみる
 ## [reviewdog](https://github.com/reviewdog/reviewdog)とは
+
 各種linterの実行結果をプルリクエストのコメントで指摘してくれるツール。
+
+![エラーイメージ](https://raw.githubusercontent.com/opdykurihara/actions/images/sample-01.png)
+
+## workflowファイルの書き方
+
+.github配下にymlを作成する。
 
 ```
 name: reviewdog
@@ -24,5 +31,3 @@ jobs:
         run: yarn lint:css
 
 ```
-
-## stylelint
