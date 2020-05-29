@@ -19,7 +19,7 @@ module.exports = {
     // 正しい単位が使われているか
     "unit-no-unknown":true,
     // プロパティの重複がないか
-    // "declaration-block-no-duplicate-properties":"true",
+    // "declaration-block-no-duplicate-properties":true,
     // コロンの前に空白を許可しない
     "declaration-colon-space-after": "never",
     // プロパティの前の空行を許可しない
