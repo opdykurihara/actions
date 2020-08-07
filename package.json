@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "stylelint": "^13.3.3",
-    "stylelint-config-recess-order": "^2.0.4"
+    "stylelint": "^13.6.1",
+    "stylelint-config-recess-order": "^2.1.0"
+  },
+  "dependencies": {
+    "npm-check-updates": "^7.0.3"
   }
 }
